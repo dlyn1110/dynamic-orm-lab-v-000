@@ -64,4 +64,3 @@ class  InteractiveRecord
 
 
 
-end
