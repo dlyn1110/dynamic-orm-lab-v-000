@@ -54,13 +54,3 @@ class  InteractiveRecord
  end
 
  end
-
-
-
-
-
-
-
-
-
-
