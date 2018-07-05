@@ -56,5 +56,4 @@ class  InteractiveRecord
     sql = "SELECT * FROM #{self.table_name} WHERE #{attribute.keys[0]} = '#{attribute.values[0]}'"#find a row by the attribute passed into the method
     DB[:conn].execute(sql)                                                                        #attribute have key value pair
   end
-end
  end
