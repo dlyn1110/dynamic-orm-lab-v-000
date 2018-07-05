@@ -21,7 +21,8 @@ class Student < InteractiveRecord
     column_names.compact
   end
 
-   def initialize
+   def initialize(options={})
+     options.each do |property, value|
+       self.send("#{propert}=", value)
    end
-
-end
+  end
