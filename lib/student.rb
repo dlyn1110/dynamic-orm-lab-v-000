@@ -18,8 +18,8 @@ class Student < InteractiveRecord
     table_info.each do |row|
       column_names << row["name"]
     end
-    column_names.compact
-  end
+     column_names.compact
+   end
 
   self.column_names.each do |col_name|
    attr_accessor col_name.to_sym
